@@ -11,6 +11,7 @@ import java.io.*;
 import java.time.Duration;
 import java.util.*;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class Direct_Application {
 
@@ -110,28 +111,21 @@ public class Direct_Application {
             WebElement bewerben_button;
 
 
-            try
-            {
 
-                bewerben_button = driver.findElement(By.xpath(BEWERBEN_DIRECT_XPATH));
-                wait.until(ExpectedConditions.visibilityOf(bewerben_button));
-
-
-            }
-            catch (Exception e)
-            {
                 try
                 {
 
-                    bewerben_button = driver.findElement(By.xpath(Bereits_Beworben_XPATH));
+                    bewerben_button = driver.findElement(By.xpath(BEWERBEN_DIRECT_XPATH));
                     wait.until(ExpectedConditions.visibilityOf(bewerben_button));
 
-                } catch (Exception d)
+                }
+                catch (Exception e)
                 {
                     switch_back(driver);
                     continue;
                 }
-            }
+
+
 
 
             name_and_address_of_company = get_name_and_address(wait);
