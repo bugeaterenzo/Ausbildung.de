@@ -38,6 +38,10 @@ abgeschickt. Den Code für dieses Automatisierungsprogramm habe ich selbst gesch
 können ihn auf meinem GitHub-Profil unter folgendem Link einsehen:
 https://github.com/bugeaterenzo/Ausbildung.de.
 
+Auch habe ich praktische Erfahrungen mit HTML, CSS und JavaScript und habe die Moshify-Website
+entwickelt. Dieses Projekt ist auf meinem GitHub-Konto gehostet, und Sie können die Website über
+die folgende URL ansehen: https://bugeaterenzo.github.io/MoshifyHosting.github.io/
+
 Die Ausbildung, die Theorie an einer Berufsschule mit Praxis verbindet,
 passt perfekt zu meinem Ziel, ein umfassender Softwareentwickler zu werden.
 
