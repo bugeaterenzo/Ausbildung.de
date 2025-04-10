@@ -34,7 +34,11 @@ Meine Leidenschaft und mein Interesse daran, neue Fähigkeiten zu erlernen, zeig
 anderem durch meine Zertifizierungen wie das ISTQB Foundation Level und das QA-Programm der
 TEK-School. Ich programmiere leidenschaftlich gern in Java. Sogar dieses Bewerbungsformular
 habe ich mit einem von mir entwickelten Java-Selenium-Programm automatisiert ausgefüllt und
-abgeschickt. Die Ausbildung, die Theorie an einer Berufsschule mit Praxis verbindet,
+abgeschickt. Den Code für dieses Automatisierungsprogramm habe ich selbst geschrieben. Sie
+können ihn auf meinem GitHub-Profil unter folgendem Link einsehen:
+https://github.com/bugeaterenzo/Ausbildung.de.
+
+Die Ausbildung, die Theorie an einer Berufsschule mit Praxis verbindet,
 passt perfekt zu meinem Ziel, ein umfassender Softwareentwickler zu werden.
 
 Mein Wunsch ist es, bei Ihnen als Auszubildender aktiv mitzuwirken und innovative Software 

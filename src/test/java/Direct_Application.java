@@ -61,6 +61,7 @@ public class Direct_Application {
     static final String LIST_OF_AUSBILDUNG_XPATH = "//article[@class = 'JobPostingCard_cardWrapper__SAt4K']";
     // static final String BEWERBEN_DIRECT_XPATH = "//a[@id = 't-link-direct-application'][1]";
     static final String BEWERBEN_DIRECT_XPATH = "//a[@id = 't-link-direct-application-continuation'][1]";
+    static final String Bereits_Beworben_XPATH = "////a[text()='Bereits beworben']";
     //static final String company_name_xpath = "//a[@class='jp-c-header__corporation-link' and contains(text() , 'GmbH')]";
     static final String company_name_xpath = "//h2[@class='title title--left']/a";
     static final String COMPANY_Address_XPATH = "//div[@class='jp-title__address']";
@@ -115,11 +116,21 @@ public class Direct_Application {
                 bewerben_button = driver.findElement(By.xpath(BEWERBEN_DIRECT_XPATH));
                 wait.until(ExpectedConditions.visibilityOf(bewerben_button));
 
+
             }
             catch (Exception e)
             {
-                switch_back(driver);
-                continue;
+                try
+                {
+
+                    bewerben_button = driver.findElement(By.xpath(Bereits_Beworben_XPATH));
+                    wait.until(ExpectedConditions.visibilityOf(bewerben_button));
+
+                } catch (Exception d)
+                {
+                    switch_back(driver);
+                    continue;
+                }
             }
 
 
